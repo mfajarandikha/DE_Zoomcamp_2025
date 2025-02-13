@@ -1,7 +1,7 @@
 # DE_Zoomcamp_2025
 ### Homework Module 3
 
-# Create Extranal Table
+#### Create Extranal Table
 ```sh
 CREATE EXTERNAL TABLE `fiery-catwalk-440706-k8.taxi_project.external_table`
 OPTIONS (
@@ -15,7 +15,7 @@ OPTIONS (
 );
 ```
 
-# Create Regular Table
+#### Create Regular Table
 ```sh
 CREATE TABLE `fiery-catwalk-440706-k8.taxi_project.regular_table` AS
 SELECT *
@@ -48,7 +48,7 @@ FROM `fiery-catwalk-440706-k8.taxi_project.regular_table`
 WHERE fare_amount = 0;
 ```
 
-# Create partition table
+#### Create partition table
 ```sh
 CREATE OR REPLACE TABLE `fiery-catwalk-440706-k8`.`taxi_project`.`optimized`
 PARTITION BY DATE(tpep_dropoff_datetime)  
