@@ -11,4 +11,4 @@ yellow_tripdata_2024-03.parquet
 yellow_tripdata_2024-04.parquet
 yellow_tripdata_2024-05.parquet
 yellow_tripdata_2024-06.parquet
-flow
+flow/
