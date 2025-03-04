@@ -4,7 +4,6 @@ ny_taxi_postgres_data/
 pg_data/
 ny_taxi_postgres_data
 gcs.json
-homework_week_2.ipynb
 yellow_tripdata_2024-01.parquet
 yellow_tripdata_2024-02.parquet
 yellow_tripdata_2024-03.parquet
@@ -12,3 +11,7 @@ yellow_tripdata_2024-04.parquet
 yellow_tripdata_2024-05.parquet
 yellow_tripdata_2024-06.parquet
 flow/
+
+yellow_tripdata_2024-10-repartitioned.parquet
+yellow_tripdata_2024-10.parquet
+taxi_zone_lookup.csv
